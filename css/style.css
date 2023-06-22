@@ -134,6 +134,10 @@ h1,h2,h3,h4,h5,h6{
 .py-2{padding:2rem ;}
 .py-3{padding:3rem ;}
 
+.l-heading{
+    font-size:3rem;
+}
+
 .list li{
     padding:.5rem 0;
     border-bottom:#555 1px solid;
@@ -262,6 +266,19 @@ h1,h2,h3,h4,h5,h6{
     grid-column:2/ span 2;
 }
 
+#article .meta{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background: #eee;
+    border-radius: .7rem;
+    padding:0.5rem;
+}
+
+#article .meta .category{
+    margin-top:0.45rem;
+}
+
 /* Footer */
 
 #main-footer{
@@ -300,4 +317,3 @@ h1,h2,h3,h4,h5,h6{
 #main-footer .footer-container input[type='submit']{
     width:90%;
 }
-/* About */
