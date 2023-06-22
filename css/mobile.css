@@ -8,9 +8,12 @@
     grid-gap:1.5rem;
 }
 
-#main-nav ul,
-#main-nav .logo{
+#main-nav ul{
     justify-self: center;
+}
+
+#main-nav .container >*:first-child{
+    justify-self:center;
 }
 
 #main-nav ul li a{
